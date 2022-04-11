@@ -23,7 +23,7 @@ public class MyListIterator implements Iterator<String> {
 
     @Override
     public String next() {
-        num -= 1;
+        num--;
         return list.get(num);
     }
 }
