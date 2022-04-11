@@ -88,6 +88,7 @@ public class App
      */
     public static Path readFilePath() {
         Path path = null;
+        //приходится не закрывать
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
             do {
                 System.out.println("input txt file");
